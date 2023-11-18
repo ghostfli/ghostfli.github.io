@@ -4,8 +4,32 @@ body {
 
 .myDiv {
     width: 100%;
+    flex-direction: row;
     box-sizing: border-box; /* Include padding and border in the element's total width */
     margin-bottom: 20px; /* Add some space between each myDiv */
     padding: 20px;
     border: 1px solid #ccc;
+}
+
+.header-container {
+    display: flex;
+    width: 100%;
+}
+
+.header-section,
+.subheader-section {
+    flex: 1;
+    box-sizing: border-box;
+    position: relative;
+    padding: 20px; /* Adjust padding as needed */
+}
+
+.header-section::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+    width: 1px;
+    background-color: #ccc;
 }
