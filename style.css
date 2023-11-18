@@ -1,8 +1,11 @@
+body {
+    margin: 0;
+}
+
 .myDiv {
-    width: 50%; /* Adjust the percentage as needed */
-    height: 50vh; /* Adjust the height as needed (50% of the viewport height in this case) */
-    background-color: lightblue;
-    position: absolute;
-    top: 25%; /* Adjust the vertical position as needed */
-    left: 25%; /* Adjust the horizontal position as needed */
+    width: 100%;
+    box-sizing: border-box; /* Include padding and border in the element's total width */
+    margin-bottom: 20px; /* Add some space between each myDiv */
+    padding: 20px;
+    border: 1px solid #ccc;
 }
