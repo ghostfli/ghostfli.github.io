@@ -1,13 +1,8 @@
-.list-horizontal li {
-    display:inline-block;
-  }
-  .list-horizontal li:before {
-    content: '\00a0\2022\00a0\00a0';
-    color:#999;
-    color:rgba(0,0,0,0.5);
-    font-size:11px;
-  }
-  .list-horizontal li:first-child:before {
-    content: '';
-  }
-  
+.myDiv {
+    width: 50%; /* Adjust the percentage as needed */
+    height: 50vh; /* Adjust the height as needed (50% of the viewport height in this case) */
+    background-color: lightblue;
+    position: absolute;
+    top: 25%; /* Adjust the vertical position as needed */
+    left: 25%; /* Adjust the horizontal position as needed */
+}
