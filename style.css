@@ -3,13 +3,23 @@ body {
 }
 
 .myDiv {
-    display: inline;
+    display: flex;
     width: 100%;
     flex-direction: row;
     box-sizing: border-box; /* Include padding and border in the element's total width */
     margin-bottom: 20px; /* Add some space between each myDiv */
     padding: 20px;
     border: 1px solid #ccc;
+}
+
+ul.myDiv {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+ul.myDiv li {
+    margin-right: 15px; /* spacing between items */
 }
 
 .header-container {
