@@ -3,6 +3,7 @@ body {
 }
 
 .myDiv {
+    display: inline;
     width: 100%;
     flex-direction: row;
     box-sizing: border-box; /* Include padding and border in the element's total width */
