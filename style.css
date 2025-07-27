@@ -3,7 +3,6 @@ body {
 }
 
 .myDiv {
-    display: flex;
     width: 100%;
     flex-direction: row;
     box-sizing: border-box; /* Include padding and border in the element's total width */
@@ -12,16 +11,20 @@ body {
     border: 1px solid #ccc;
 }
 
-ul.myDiv {
+.myList {
+    display: flex;
+    flex-direction: row;
     list-style: none;
     padding: 0;
     margin: 0;
 }
 
-ul.myDiv li {
-    margin-right: 15px; /* spacing between items */
+.myList li {
+    margin-right: 15px;
+    background-color: #e0e0e0;
+    padding: 10px;
+    border-radius: 4px;
 }
-
 .header-container {
     display: flex;
     width: 100%;
